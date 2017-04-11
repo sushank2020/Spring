@@ -1,0 +1,1 @@
+https://www.infoq.com/articles/traffic-data-monitoring-iot-kafka-and-spark-streaming

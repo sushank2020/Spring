@@ -15,6 +15,6 @@ public interface UserMapper
     void insertUser(User user);
     @Select("select id, name, email from users WHERE id=#{id}")
     User findUserById(Integer id);
-    @Select("select id, name, email from users")
+    /*@Select("select id, name, email from users")*/
     List<User> findAllUsers();
 }
